@@ -10,7 +10,7 @@ specifiers:
   mkdirp: 1.0.4
   npm-run-all: 4.1.5
   rimraf: 3.0.2
-  wait-on: 6.0.0
+  wait-on: 6.0.1
 
 devDependencies:
   chokidar-cli: 3.0.0
@@ -22,7 +22,7 @@ devDependencies:
   mkdirp: 1.0.4
   npm-run-all: 4.1.5
   rimraf: 3.0.2
-  wait-on: 6.0.0
+  wait-on: 6.0.1
 
 packages:
 
@@ -1212,8 +1212,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios/0.21.4:
-    resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
+  /axios/0.25.0:
+    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
     dependencies:
       follow-redirects: 1.14.9
     transitivePeerDependencies:
@@ -5331,12 +5331,12 @@ packages:
       xml-name-validator: 3.0.0
     dev: true
 
-  /wait-on/6.0.0:
-    resolution: {integrity: sha512-tnUJr9p5r+bEYXPUdRseolmz5XqJTTj98JgOsfBn7Oz2dxfE2g3zw1jE+Mo8lopM3j3et/Mq1yW7kKX6qw7RVw==}
+  /wait-on/6.0.1:
+    resolution: {integrity: sha512-zht+KASY3usTY5u2LgaNqn/Cd8MukxLGjdcZxT2ns5QzDmTFc4XoWBgC+C/na+sMRZTuVygQoMYwdcVjHnYIVw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
-      axios: 0.21.4
+      axios: 0.25.0
       joi: 17.6.0
       lodash: 4.17.21
       minimist: 1.2.5
